@@ -8,17 +8,10 @@ namespace EncryptDecrypt
         {
             char[] alphabet = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
             String plaintext = "This is a private encrypted message";
-            char[,] tCiphertext = { {'I','E','U','B','O','I','P','I'},
-                                    {'N','S','C','L','F','S','O','B'},
-                                    {'D','T','T','E','T','I','S','L'},
-                                    {'E','R','A','S','W','M','S','E'} };
-            String sCiphertext = "SZXPVIH ZIV GVMZXRLFH";
-            String vCiphertext = "LLGLV BQ QQHVG GF JUTSBLY";
 
             // KEYS
             char[] subAlphabet = {'Z', 'Y', 'X', 'W', 'V', 'U', 'T', 'S', 'R', 'Q', 'P', 'O', 'N', 'M', 'L', 'K', 'J', 'I', 'H', 'G', 'F', 'E', 'D', 'C', 'A', 'B'};
             String vKey = "SECURITY";
-            String vignere = "THERE TX SYDTM PX QWBOZRH       ";
 
             static int charToIndex(char[] alpha, char c)
             {
